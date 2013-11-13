@@ -10,7 +10,7 @@ Puppet::Type.newtype(:bios) do
   #
 
   newparam(:name, :namevar => true) do
-    newvalues(:nextboot,:assettag)
+    newvalues(:nextboot,:AssetTag)
     desc 'The name of the bios setting.'
   end
 
