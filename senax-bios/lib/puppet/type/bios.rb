@@ -10,10 +10,8 @@ Valid name value pairs can be found by running omconfig chassis biossetup -?
 
   Serial Communication
   -----------------------------------
-  attribute=SerialComm              
-setting=<OnNoConRedir><OnConRedirCom1><OnConRedirCom2><Off>
-  attribute=SerialPortAddress       
-setting=<Serial1Com1Serial2Com2><Serial1Com2Serial2Com1>
+  attribute=SerialComm               setting=<OnNoConRedir><OnConRedirCom1><OnConRedirCom2><Off>
+  attribute=SerialPortAddress        setting=<Serial1Com1Serial2Com2><Serial1Com2Serial2Com1>
   attribute=ExtSerialConnector       setting=<Serial1><Serial2><RemoteAccDevice>
   attribute=FailSafeBaud             setting=<115200><57600><19200><9600>
   attribute=ConTermType              setting=<Vt100Vt220><Ansi>
@@ -25,8 +23,7 @@ setting=<Serial1Com1Serial2Com2><Serial1Com2Serial2Com1>
   Memory Settings
   -----------------------------------
   attribute=MemTest                  setting=<Enabled><Disabled>
-  attribute=MemOpMode               
-setting=<OptimizerMode><MirrorMode><AdvEccMode><FaultResilientMode>
+  attribute=MemOpMode                setting=<OptimizerMode><MirrorMode><AdvEccMode><FaultResilientMode>
   attribute=NodeInterleave           setting=<Enabled><Disabled>
 
   Processor Settings
@@ -71,11 +68,9 @@ setting=<OptimizerMode><MirrorMode><AdvEccMode><FaultResilientMode>
 
   System Profile Settings
   -----------------------------------
-  attribute=SysProfile              
-setting=<PerfPerWattOptimizedDapc><PerfPerWattOptimizedOs><PerfOptimized><DenseCfgOptimized><Custom>
+  attribute=SysProfile               setting=<PerfPerWattOptimizedDapc><PerfPerWattOptimizedOs><PerfOptimized><DenseCfgOptimized><Custom>
   attribute=ProcPwrPerf              setting=<SysDbpm><MaxPerf><OsDbpm>
-  attribute=MemFrequency            
-setting=<MaxPerf><MaxReliability><1866MHz><1600MHz><1333MHz><1067MHz><800MHz>
+  attribute=MemFrequency             setting=<MaxPerf><MaxReliability><1866MHz><1600MHz><1333MHz><1067MHz><800MHz>
   attribute=ProcTurboMode            setting=<Enabled><Disabled>
   attribute=ProcC1E                  setting=<Enabled><Disabled>
   attribute=ProcCStates              setting=<Enabled><Disabled>
@@ -104,8 +99,7 @@ setting=<MaxPerf><MaxReliability><1866MHz><1600MHz><1333MHz><1067MHz><800MHz>
 
   BIOS Boot Settings
   -----------------------------------
-  attribute=BootSeq                 
-sequence=<NIC.Integrated.1-1-1><HardDisk.List.1-1><Optical.SATAEmbedded.E-1>
+  attribute=BootSeq                  sequence=<NIC.Integrated.1-1-1><HardDisk.List.1-1><Optical.SATAEmbedded.E-1>
   attribute=HddSeq                   sequence=<RAID.Integrated.1-1>
 
   UEFI Boot Settings
@@ -113,8 +107,7 @@ sequence=<NIC.Integrated.1-1-1><HardDisk.List.1-1><Optical.SATAEmbedded.E-1>
 
   One-Time Boot
   -----------------------------------
-  attribute=OneTimeBootMode         
-setting=<Disabled><OneTimeBootSeq><OneTimeHddSeq><OneTimeUefiBootSeq>
+  attribute=OneTimeBootMode          setting=<Disabled><OneTimeBootSeq><OneTimeHddSeq><OneTimeUefiBootSeq>
 
   Slot Disablement
   -----------------------------------
