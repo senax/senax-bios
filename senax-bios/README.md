@@ -15,13 +15,17 @@ Dell OpenManage needs to be installed on the server to be managed for example fr
 
 To set the server up for OS managed power control:
 
+```puppet
   bios{'SysProfile':
     value   => 'Custom',
   }
   bios{'ProcPwrPerf':
     value   => 'OsDbpm',
   }
+```
 
 To list all current bios settings:
+```puppet
   puppet resource bios
+```
 
