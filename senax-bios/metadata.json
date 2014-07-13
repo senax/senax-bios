@@ -1,0 +1,17 @@
+{
+  "name": "senax-bios",
+  "version": "1.0.0",
+  "author": "senax",
+  "summary": "Manage Dell server BIOS settings",
+  "license": "Apache 2.0",
+  "source": "https://github.com/senax/senax-bios",
+  "project_page": "https://github.com/senax/senax-bios",
+  "issues_url": "https://github.com/senax/senax-bios/issues",
+  "dependencies": [
+    {
+      "version_range": ">= 1.0.0",
+      "name": "puppetlabs-stdlib"
+    }
+  ]
+}
+
