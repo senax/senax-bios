@@ -1,14 +1,13 @@
 Puppet::Type.type(:bios).provide(:dell) do
   desc "dell omconfig bios provider"
+  # http://permalink.gmane.org/gmane.comp.sysutils.puppet.devel/18648
 
-  confine :osfamily => :redhat
+  confine    :osfamily => :redhat
   defaultfor :osfamily => :redhat
 
   commands :omconfig => "/opt/dell/srvadmin/bin/omconfig"
   commands :omreport => "/opt/dell/srvadmin/bin/omreport"
 
-
-# http://permalink.gmane.org/gmane.comp.sysutils.puppet.devel/18648
 
   def self.bioslist
     biossettings = []
@@ -52,5 +51,5 @@ Puppet::Type.type(:bios).provide(:dell) do
     bioses
   end
 
-end # end of clas
+end # end of class
 
