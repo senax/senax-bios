@@ -1,7 +1,7 @@
 {
   "name": "senax-bios",
   "version": "1.0.0",
-  "author": "senax",
+  "author": "frankederveen",
   "summary": "Manage Dell server BIOS settings",
   "license": "Apache 2.0",
   "source": "https://github.com/senax/senax-bios",
